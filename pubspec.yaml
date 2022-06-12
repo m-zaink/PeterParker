@@ -1,0 +1,24 @@
+name: peter_parker
+description: A rip-off of Twitter's core features
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # pub
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #pub
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
